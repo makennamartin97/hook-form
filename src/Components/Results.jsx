@@ -1,4 +1,5 @@
-import React  from  'react';
+
+import React, { useState, Form } from 'react';
 
 const Results = (props) => {
     const {firstName, lastName, email, password, confirm } = props.data;

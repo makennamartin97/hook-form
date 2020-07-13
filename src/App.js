@@ -16,9 +16,18 @@ function App() {
     return (
     <div className="container">
       <div className="jumbotron bg-info text-light text-center"></div>
+      <div className="row">
+        <div className="col-sm-4">
         <UserForm inputs={state} setInputs={setState} />
+        </div>
+        <div className="col-sm-8">
         <Results data={state} />
+
+        </div>
+      </div>
     </div>
+
+    
   
  
       //newUser = {newUser}/>
